@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*Coded by Wolf
+/*written by Aniebiet Akpan
 *Date: 20/07/16
 ///~*/
 /*this code has many limitations
@@ -15,13 +15,6 @@ int main(){
     int number = dectobin(100);
     printf("%i\n", number);
     printf("%i\n", bintodec(number));
-
-//    int m, n;
-//    for(m=0; m<1023; m++){
-//        n = dectobin(m);
-//        printf("%i      %i\n", n, bintodec(n));
-//    }
-
 }
 int dectobin(int i)
 {
